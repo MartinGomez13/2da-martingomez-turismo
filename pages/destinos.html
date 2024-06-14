@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--estilos-->
     <link rel="stylesheet" href="../css/style.css">
     <!--fonts-->
@@ -42,39 +44,72 @@
     </header>
     <main>
         <h2 class="h2-principal">DESTINOS</h2>
-        <section class="articulos-destinos">
-            <article class="destinos-frecuentes-caba">
-                <h3>CABA</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A architecto ut eaque eum illum rerum
-                    voluptatem nihil aliquam optio facere atque corrupti ratione iusto, nesciunt odio, quos, iste
-                    assumenda temporibus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro dignissimos
-                    harum aut ex nam animi, quis laboriosam vitae earum eius at, nemo, ratione accusamus tempora fugiat.
-                    Voluptatibus quisquam eum cupiditate?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
-                    reiciendis sit dolorem? Culpa hic doloremque maiores explicabo eius dolore. Officia repellendus esse
-                    temporibus laborum nostrum voluptatum rem veniam natus sint?</p>
-                <a href="" class="link-viaje">Viaja a CABA</a>
-            </article>
-            <article class="destinos-frecuentes-smdla">
-                <h3>SAN MARTIN DE LOS ANDES</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis natus id nihil sed culpa
-                    inventore voluptates accusamus! Ipsam autem obcaecati nulla consequatur minima dolor qui, veniam
-                    inventore doloribus blanditiis quasi.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Facilis sint eius porro atque, eveniet non doloremque ad culpa numquam. Numquam, ratione quaerat.
-                    Eveniet eum error at ratione aliquid voluptatibus facere.</p>
-                <a href="" class="link-viaje">Viaja a San Martin de los Andes</a>
-            </article>
-            <article class="destinos-frecuentes-mendoza">
-                <h3>MENDOZA</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam repellat quo doloremque neque autem
-                    id a non possimus, modi dolorum impedit perspiciatis quod nostrum explicabo eius praesentium porro
-                    architecto inventore.</p>
-                <a href="" class="link-viaje">Viaja a Mendoza</a>
-            </article>
+        <section class="articulos-destinos d-flex justify-content-center">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../assets/destinos-caba.jpg" class="d-block w-100" alt="Destino Buenos Aires">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>Ciudad Autonoma de Buenos Aires</h5>
+                      <p>Buenos Aires es la gran capital cosmopolita de Argentina. Su centro es la Plaza de Mayo, rodeada de imponentes edificios del siglo XIX, incluida la Casa Rosada, el icónico palacio presidencial que tiene varios balcones. Entre otras atracciones importantes, se incluyen el Teatro Colón, un lujoso teatro de ópera de 1908 con cerca de 2,500 asientos, y el moderno museo MALBA, que exhibe arte latinoamericano.</p>                    </div>                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/destinos-lujan.jpg" class="d-block w-100" alt="Destino Bs As">
+                    <div class="carousel-caption d-md-block">
+                      <h5>Provincia de Buenos Aires</h5>
+                      <p>Un destino único donde playas doradas, ciudades vibrantes, rica historia, naturaleza exuberante y deliciosa gastronomía se combinan para ofrecerte experiencias inolvidables. Relájate en las costas de Mar del Plata y Pinamar, explora las sierras de Tandil, visita los museos de La Plata y disfruta de la auténtica carne argentina en nuestras famosas parrillas. Con una cálida hospitalidad y opciones de alojamiento para todos los gustos, te invitamos a vivir momentos únicos y crear recuerdos que atesorarás para siempre. ¡Te esperamos con los brazos abiertos!</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <div id="carouselExampleCaptions2" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../assets/destinos-mendoza.jpg" class="d-block w-100" alt="Destino Buenos Aires">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>Mendoza</h5>
+                      <p>Mendoza es una provincia con hermosas vistas a los Andes y al imponente Aconcagua. Vas a poder realizar trekking, rafting y la ruta del vino, saboreando los mejores Malbecs en bodegas de la provincia. Pasea por la ciudad para empaparte en su cultura y gastronomía. Mendoza te asegura una estancia inolvidable.</p>                    </div>                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/destinos-smdla.jpg" class="d-block w-100" alt="Destino Bs As">
+                    <div class="carousel-caption d-md-block">
+                      <h5>San Martin de los Andes</h5>
+                      <p>San Martín de los Andes es un destino encantador rodeado por la majestuosidad de la Patagonia. Disfruta de actividades al aire libre como trekking, pesca y kayak en el hermoso lago Lacar. Recorre sus calles pintorescas y sumérgete en la cultura local, con su rica gastronomía y artesanías. San Martín de los Andes te ofrece una estancia inolvidable en la serenidad de la naturaleza.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
     </main>
     <footer>
         <p>Todos los derechos reservados a Agencia Vicus23 ™</p>
     </footer>
+    <!--BS scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -163,31 +163,15 @@
         font-size: 20px;
         background-color: #f5f5dc;
     }
-    .destinos-frecuentes-caba{
-        background-image: url("../assets/destinos-caba.jpg");
-        width: 800px;
-        height: 500px;
+    /* DESTINOS */
+    .carousel-inner {
+        position: relative;
+        width: 95%;
+        overflow: hidden;
+        border: 3px solid #fbb38d;
     }
-    main section h3{
-        color: #ffffff;
-        text-align: center;
-    }
-    .articulos-destinos{
-        color: #f5f5dc;
-        text-align: center;
-    }
-    .viajar-a-caba{
-        text-align: center;
-    }
-    .destinos-frecuentes-smdla{
-        background-image: url("../assets/destinos-smdla.jpg");
-        width: 800px;
-        height: 500px;
-    }
-    .destinos-frecuentes-mendoza{
-        background-image: url("../assets/destinos-mendoza.jpg");
-        width: 800px;
-        height: 500px;
+    .carousel-caption{
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     }
     .link-viaje{
         background-color: #1d1414;
@@ -269,6 +253,16 @@
         .bg-articulos p{
             width: 100%;
         }
+        .articulos-destinos{
+            flex-direction: column;
+        }
+        .carousel {
+            position: relative;
+            margin-bottom: 1rem;
+        }
+        .carousel-caption {
+            font-size: 11px;
+        }
     }
     
     @media only screen and (min-width: 501px) and (max-width: 960px){
@@ -298,6 +292,13 @@
         }
         .bg-articulos p{
             width: 100%;
+        }
+        .articulos-destinos{
+            flex-direction: column;
+        }
+        .carousel {
+            position: relative;
+            margin-bottom: 1rem;
         }
     }
     
