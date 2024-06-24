@@ -9,36 +9,31 @@
         justify-content: center;
         flex-direction: column;
     }
-    .header{
+    .encabezado-navbar{
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 5px 10%;
         border-bottom: 1px solid #808080;
     }
-    .header .logo img{
+    .encabezado-navbar .logo img{
         height: 150px;
         width: auto;
     }
-    .header .navegacion-links{
+    .navegacion-links{
         list-style: none;
     }
-    .header .navegacion-links li{
+    .navegacion-links li{
         display: inline-block;
         padding: 0 20px;
     }
-    .header .navegacion-links a{
+    .navegacion-links a{
         text-decoration: none;
     }
     header nav ul {
         list-style-type: none;
         text-decoration: none;
     }
-    /*header{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }*/
     .h1-navegacion{
         display: flex;
         flex-direction: row;
@@ -351,10 +346,10 @@
     }
     
     @media only screen and (max-width: 500px) {
-        .header{
+        .encabezado-navbar{
             flex-direction: column;
         }
-        .header .navegacion-links {
+        .navegacion-links {
             display: flex;
             list-style: none;
             flex-direction: column;
@@ -414,10 +409,10 @@
     }
     
     @media only screen and (min-width: 501px) and (max-width: 960px){
-        .header{
+        .encabezado-navbar{
             flex-direction: column;
         }
-        .header .navegacion-links {
+        .navegacion-links {
             display: flex;
             list-style: none;
             flex-direction: column;
