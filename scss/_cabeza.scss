@@ -9,20 +9,22 @@
     align-items: center;
     padding: 5px 10%;
     border-bottom: 1px solid #808080;
-}
-.encabezado-navbar .logo img{
-    height: 150px;
-    width: auto;
+    .logo{
+        img{
+            height: 150px;
+            width: auto;
+        }
+    }
 }
 .navegacion-links{
     list-style: none;
-}
-.navegacion-links li{
-    display: inline-block;
-    padding: 0 20px;
-}
-.navegacion-links a{
-    text-decoration: none;
+    li{
+        display: inline-block;
+        padding: 0 20px;
+    }
+    a{
+        text-decoration: none;
+    }
 }
 header nav ul {
     list-style-type: none;

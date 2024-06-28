@@ -1,0 +1,284 @@
+.bg-titulo{
+    background-image: url("../assets/bg-titulo-index.webp");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    border-bottom: 2px solid #808080;
+}
+
+.h2-principal{
+    text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
+    color: #fbb38d;
+    display: flex;
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.parrafo-index{
+    display: flex;
+    background-color: #cdd8c7;
+    color: #d05774;
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    text-decoration:underline;
+    margin-bottom: 0px;
+}
+.parrafo-index2{
+    color: #723646;
+    background-color: #cdd8c7;
+    text-align: center;
+    border-bottom: 2px solid #808080;
+    margin-bottom: 0px;
+
+}
+.bg-articulos{
+    background-color: #cdd8c7;
+    iframe{
+        display: flex;
+        width: 35%;
+    }
+    h2{
+        width: 14rem;
+        color: #6bc8cd;
+        font-size: 35px;
+        display: flex;
+        text-shadow: 1px 1px 0 #000,
+        -1px 1px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000;
+    }
+    p{
+        display: flex;
+        color: #fff900;
+        width: 25%;
+        text-shadow: 1px 1px 0 #000,
+        -1px 1px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000;
+    }
+}
+.contenedor{
+    border: 2px solid #f58b7e;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.contenedores-destinos-principales{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.buenos-aires{
+    background-image: url("../assets/bsas-backround-nordelta.jpg");
+}
+.caba{    
+    background-image: url("../assets/caba-backround.jpg");
+}
+.mendoza{
+        background-image: url("../assets/mendoza-backround.jpg");
+}
+.boton-viajes{
+    background-color: #565656;
+    color: #fbb38d;
+    border-radius: 10px;
+    padding: 1em;
+    &:active{
+        background-color: grey;
+    }
+    &:hover{
+        background-color: #19647e;
+    }
+}
+//Quienes somos
+.article-quienes-somos{
+text-align: center;
+}
+.seccion-prueba-quienes-somos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contenedor-quienes-somos{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    justify-items: center;
+    img{
+        width: 55%;
+        height: 55%;
+    }
+}
+.h3-opiniones{
+    text-align: left;
+    color: #19647e;
+}
+//FAQS
+.h5-faqs{
+    font-size: 20px;
+    background-color: #f5f5dc;
+}
+.parrafo-index-faqs{
+    display: flex;
+    color: #d05774;
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    text-decoration:underline;
+    margin-bottom: 3%;
+}
+.barra-busqueda{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    form{
+        width: 75%;
+    }
+}
+.preguntas-frecuentes{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+//Destinos
+.carousel-inner {
+    position: relative;
+    width: 95%;
+    overflow: hidden;
+    border: 3px solid #fbb38d;
+}
+.carousel-caption{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.link-viaje{
+    background-color: #1d1414;
+}
+//Contacto
+.contacto{
+    &-redes{
+        a {
+            text-decoration: none;
+        }
+    }
+    &-icons{
+        grid-area: redes;
+        display: flex;
+        justify-content: space-evenly;
+        a{
+            list-style-type: none;
+            text-decoration: none;
+        }
+    }
+    &-grilla{
+        display: grid;
+        align-items: center;
+        grid-template-rows: 8% 10% 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "titulo titulo2"
+        "redes  mapa"
+        "chatea mapa"
+        "telefono horarios";
+    }
+    &-iframe{
+        grid-area: mapa;
+        display: flex;
+        justify-content: center;
+    }
+    &-chatea{
+        grid-area: chatea;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    &-text{
+        grid-area: telefono;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        h4{
+            margin-bottom: 2px;
+        }
+        textarea{
+            margin-bottom: 2px;
+            background-color: #f5f5dc;
+            width: 95%;
+        }
+    }
+    &-bg{
+        background-color: #f5f5dc;
+    }
+    &-iframe{
+        iframe{
+            width: 100%;
+        }
+    }
+    &-horarios{
+        grid-area: horarios;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &-logo-twitter{
+        width: 50px;
+        height: 50px;
+    }
+    &-logo-facebook{
+        width: 50px;
+        height: 50px;
+    }
+    &-logo-yt{
+        width: 70px;
+        height: 50px;  
+    }
+    &-logo-tiktok{
+        width: 50px;
+        height: 50px; 
+    }
+}
+.h3{
+    &-contacto{
+        grid-area: titulo;
+        display: flex;
+        justify-content: center;
+        color: #19647e;
+        text-decoration: underline;
+        text-align: left;
+        color: #19647e;
+    }
+    &-contacto2{
+        grid-area: titulo2;
+        display: flex;
+        justify-content: center;
+        color: #19647e;
+        text-decoration: underline;
+    }
+}
+.btn{
+    border: 1px solid black;
+    &:hover{
+        background-color: bisque;
+        border: 1px solid #000;
+    }
+}
+svg{
+    width: 60px;
+    height: 60px;
+}
+.barra-navegacion{
+    display: flex;
+    justify-content: center;
+}
