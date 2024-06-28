@@ -1,0 +1,50 @@
+* {
+  font-family: "Aleo", serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-bootstrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.encabezado-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10%;
+  border-bottom: 1px solid #808080;
+}
+
+.encabezado-navbar .logo img {
+  height: 150px;
+  width: auto;
+}
+
+.navegacion-links {
+  list-style: none;
+}
+
+.navegacion-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navegacion-links a {
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.h1-navegacion {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+
+/*# sourceMappingURL=main.css.map */
