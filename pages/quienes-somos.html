@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!--estilos-->
     <link rel="stylesheet" href="../css/main.css">
     <!--fonts-->
@@ -20,81 +20,104 @@
 <body>
     <header class="encabezado-navbar">
         <h1 class="h1-navegacion">Vicus23 <br> Guía de turismo </h1>
-        <nav>
-            <ul class="navegacion-links">
-                <li><a href="../index.html">
-                        Inicio
-                    </a></li>
-                <li><a href="./quienes-somos.html">
-                        Quienes somos
-                    </a></li>
-                <li><a href="./faqs.html">
-                        FAQS
-                    </a></li>
-                <li><a href="./destinos.html">
-                        Destinos
-                    </a></li>
-                <li><a href="./contacto.html">
-                        Contacto
-                    </a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navegacion-links">
+                        <li><a href="../index.html">
+                                Inicio
+                            </a></li>
+                        <li><a href="./quienes-somos.html">
+                                Quienes somos
+                            </a></li>
+                        <li><a href="./faqs.html">
+                                FAQS
+                            </a></li>
+                        <li><a href="./destinos.html">
+                                Destinos
+                            </a></li>
+                        <li><a href="./contacto.html">
+                                Contacto
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         <div class="logo">
-            <img src="../assets/logotipo-removebg-preview.png" alt="Logotipo de la empresa de turismo" class="logo-general">
+            <img src="../assets/logotipo-removebg-preview.png" alt="Logotipo de la empresa de turismo"
+                class="logo-general">
         </div>
     </header>
     <main>
         <section class="primer-quienes-somos">
             <article class="article-quienes-somos">
                 <h2 class="h2-principal">¿QUIENES SOMOS?</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae esse error dicta modi earum
-                    culpa impedit nostrum, reprehenderit officia quibusdam nihil velit harum ut est qui, animi a nulla
-                    voluptas.</p>
+                <p>En Vicus23, nuestra misión es ofrecer experiencias de viaje inolvidables, combinando el conocimiento
+                    local con un servicio de excelencia. Nos apasiona compartir la belleza y la historia de cada destino
+                    con nuestros clientes, asegurándonos de que cada recorrido sea único y enriquecedor.
+                </p>
                 <br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit quas quos, explicabo animi
-                    itaque aperiam dignissimos optio provident enim eum hic beatae quo magnam iusto ab consectetur
-                    doloremque? Vel, officia.</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga consectetur error corrupti, neque
-                    corporis eligendi accusamus ab quibusdam? Molestiae sunt ullam explicabo laboriosam ea! Laborum ad
-                    amet impedit dicta aliquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
-                    consequuntur, incidunt explicabo recusandae quisquam quas maiores aliquid modi quae expedita
-                    perspiciatis. Amet, quidem animi molestiae beatae consectetur aliquam voluptas est.</p> <br>
+                <p>Contamos con un equipo de guías turísticos capacitados y apasionados por su trabajo. Cada
+                    miembro de Vicus23 aporta un conocimiento profundo y una perspectiva interesante, garantizando que
+                    nuestros tours sean informativos, entretenidos y adaptados a los objetivos de cada viajero.
+                </p>
+                <p>En Vicus23 nos comprometemos a brindar un servicio de alta calidad y personalizado. Trabajamos
+                    continuamente
+                    para mejorar y adaptarnos a las necesidades de nuestros clientes, asegurándonos de que cada
+                    experiencia de viaje supere sus expectativas y deje recuerdos duraderos.</p>
             </article>
         </section>
-        
-            <h3 class="h3-opiniones">Opiniones de nuestros clientes:</h3>
-            <section class="seccion-prueba-quienes-somos">
-                <div class="contenedor-quienes-somos">
-                    <img src="../assets/quienes-somos-avatar.png" alt="">
-                    <p> ⭐ ⭐ ⭐ ⭐ ✩ <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam dolorem perferendis
-                        saepe sint, repellendus est.</p> 
-                </div>
-                <div class="contenedor-quienes-somos">
-                    <img src="../assets/quienes-somos-avatar.png" alt="">
-                    <p> ⭐ ⭐ ⭐ ✩ ✩ <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam dolorem perferendis
-                        saepe sint, repellendus est. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates
-                        porro repudiandae architecto minima similique, vero, ad perferendis nostrum quaerat explicabo veniam
-                        quibusdam commodi provident atque? Est temporibus ratione culpa veritatis.</p>
-                </div>
-                <div class="contenedor-quienes-somos">
-                    <img src="../assets/quienes-somos-avatar.png" alt="">
-                    <p> ⭐ ⭐ ⭐ ⭐ ⭐ <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam dolorem perferendis
-                        saepe sint.</p>
-                </div>
-                <div class="contenedor-quienes-somos">
-                    <img src="../assets/quienes-somos-avatar.png" alt="">
-                    <p> ⭐ ⭐ ⭐ ⭐ ⭐ <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam dolorem perferendis
-                        saepe sint.</p>
-                </div>
+
+        <h3 class="h3-opiniones">Opiniones de nuestros clientes:</h3>
+        <section class="seccion-prueba-quienes-somos">
+            <div class="contenedor-quienes-somos">
+                <img src="../assets/quienes-somos-avatar.png" alt="">
+                <p> ⭐ ⭐ ⭐ ⭐ ✩ <br>"El tour organizado por Vicus23 superó todas mis expectativas. La profesionalidad y el
+                    conocimiento del guía hicieron que cada momento fuera memorable. ¡Recomiendo esta agencia al 100%!"
+
+                </p>
+            </div>
+            <div class="contenedor-quienes-somos">
+                <img src="../assets/quienes-somos-avatar.png" alt="">
+                <p> ⭐ ⭐ ⭐ ✩ ✩ <br>"Explorar la ciudad con Vicus23 fue una experiencia increíble. Nuestro guía conocía
+                    cada rincón y cada historia, haciendo el recorrido realmente fascinante. Sin duda, volveré a
+                    elegirlos para mi próximo viaje. Solo espero que arreglen la puntialidad."
+
+                </p>
+            </div>
+            <div class="contenedor-quienes-somos">
+                <img src="../assets/quienes-somos-avatar.png" alt="">
+                <p> ⭐ ⭐ ⭐ ⭐ ⭐ <br>"Lo que más me impresionó de Vicus23 fue la atención al detalle y el trato
+                    personalizado. Nuestro guía se tomó el tiempo de responder todas nuestras preguntas y adaptó el
+                    recorrido a nuestros intereses. ¡Una experiencia que repetiré sin duda!"
+
+                </p>
+            </div>
+            <div class="contenedor-quienes-somos">
+                <img src="../assets/quienes-somos-avatar.png" alt="">
+                <p> ⭐ ⭐ ⭐ ⭐ ⭐ <br>"Gracias a Vicus23, descubrimos aspectos de la ciudad que jamás habríamos encontrado
+                    por nuestra cuenta. La pasión y el entusiasmo del guía hicieron que el tour fuera divertido e
+                    instructivo. ¡Altamente recomendable!"
+
+                </p>
+            </div>
 
 
     </main>
     <footer>
         <p>Todos los derechos reservados a Agencia Vicus23 ™</p>
     </footer>
-        <!--BS script-->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <!--BS script-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 
 </body>
 
