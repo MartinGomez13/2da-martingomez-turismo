@@ -7,10 +7,7 @@
 }
 
 .h2-principal{
-    text-shadow: 1px 1px 0 #000,
-    -1px 1px 0 #000,
-    -1px -1px 0 #000,
-    1px -1px 0 #000;
+    text-shadow: $shadow;
     color: #fbb38d;
     display: flex;
     font-size: 60px;
@@ -21,7 +18,7 @@
 }
 .parrafo-index{
     display: flex;
-    background-color: #cdd8c7;
+    background-color: $bg-main;
     color: #d05774;
     text-align: center;
     font-size: 25px;
@@ -32,14 +29,14 @@
 }
 .parrafo-index2{
     color: #723646;
-    background-color: #cdd8c7;
+    background-color: $bg-main;
     text-align: center;
     border-bottom: 2px solid #808080;
     margin-bottom: 0px;
 
 }
 .bg-articulos{
-    background-color: #cdd8c7;
+    background-color: $bg-main;
     iframe{
         display: flex;
         width: 35%;
@@ -49,19 +46,13 @@
         color: #6bc8cd;
         font-size: 35px;
         display: flex;
-        text-shadow: 1px 1px 0 #000,
-        -1px 1px 0 #000,
-        -1px -1px 0 #000,
-        1px -1px 0 #000;
+        text-shadow: $shadow;
     }
     p{
         display: flex;
         color: #fff900;
         width: 25%;
-        text-shadow: 1px 1px 0 #000,
-        -1px 1px 0 #000,
-        -1px -1px 0 #000,
-        1px -1px 0 #000;
+        text-shadow: $shadow;
     }
 }
 .contenedor{
@@ -94,7 +85,7 @@
     border-radius: 10px;
     padding: 1em;
     &:active{
-        background-color: grey;
+        background-color: #808080;
     }
     &:hover{
         background-color: #19647e;
@@ -126,7 +117,7 @@ text-align: center;
 //FAQS
 .h5-faqs{
     font-size: 20px;
-    background-color: #f5f5dc;
+    background-color: $bg-secondary;
 }
 .parrafo-index-faqs{
     display: flex;
@@ -160,7 +151,7 @@ text-align: center;
     border: 3px solid #fbb38d;
 }
 .carousel-caption{
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: $shadow;
 }
 .link-viaje{
     background-color: #1d1414;
@@ -214,12 +205,12 @@ text-align: center;
         }
         textarea{
             margin-bottom: 2px;
-            background-color: #f5f5dc;
+            background-color: $bg-secondary;
             width: 95%;
         }
     }
     &-bg{
-        background-color: #f5f5dc;
+        background-color: $bg-secondary;
     }
     &-iframe{
         iframe{
@@ -270,7 +261,7 @@ text-align: center;
 .btn{
     border: 1px solid black;
     &:hover{
-        background-color: bisque;
+        background-color: #ffe4c4;
         border: 1px solid #000;
     }
 }

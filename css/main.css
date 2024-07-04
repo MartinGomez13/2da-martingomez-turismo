@@ -140,7 +140,7 @@ header nav ul {
   padding: 1em;
 }
 .boton-viajes:active {
-  background-color: grey;
+  background-color: #808080;
 }
 .boton-viajes:hover {
   background-color: #19647e;
@@ -212,7 +212,7 @@ header nav ul {
 }
 
 .carousel-caption {
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000;
 }
 
 .link-viaje {
@@ -314,7 +314,7 @@ header nav ul {
   border: 1px solid black;
 }
 .btn:hover {
-  background-color: bisque;
+  background-color: #ffe4c4;
   border: 1px solid #000;
 }
 
