@@ -138,6 +138,7 @@ header nav ul {
   color: #fbb38d;
   border-radius: 10px;
   padding: 1em;
+  width: 11%;
 }
 .boton-viajes:active {
   background-color: #808080;
@@ -320,60 +321,16 @@ footer p {
   text-align: center;
 }
 
-@media only screen and (max-width: 500px) {
-  .encabezado-navbar {
-    flex-direction: column;
-  }
-  .navegacion-links {
-    display: flex;
-    list-style: none;
-    flex-direction: column;
-  }
-  .parrafo-index {
-    height: 50%;
-  }
-  .h2-principal {
-    font-size: 40px;
-  }
-  .contenedores-destinos-principales {
-    flex-direction: column;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-  }
-  .bg-articulos iframe {
-    width: 95%;
-  }
-  .bg-articulos p {
-    width: 100%;
-  }
-  .articulos-destinos {
-    flex-direction: column;
-  }
-  .carousel {
-    position: relative;
-    margin-bottom: 1rem;
-  }
-  .carousel-caption {
-    font-size: 11px;
-  }
-  .contacto-grilla {
-    display: grid;
-    align-items: center;
-    grid-template-rows: 8% 10% 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "titulo titulo" "redes redes" "chatea chatea" "telefono telefono" "titulo2 titulo2" "mapa mapa" "mapa mapa" "horarios horarios" "footer footer";
-  }
+@media (max-width: 500px) {
   svg {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
   .contacto-text textarea {
     width: 75%;
   }
 }
-@media only screen and (min-width: 501px) and (max-width: 960px) {
+@media (max-width: 960px) {
   .encabezado-navbar {
     flex-direction: column;
   }
@@ -415,10 +372,8 @@ footer p {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "titulo titulo" "redes redes" "chatea chatea" "telefono telefono" "titulo2 titulo2" "mapa mapa" "mapa mapa" "horarios horarios" "footer footer";
   }
-}
-@media only screen and (min-width: 961px) {
   .boton-viajes {
-    width: 11%;
+    width: 50%;
   }
 }
 
