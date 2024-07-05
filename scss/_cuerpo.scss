@@ -9,21 +9,19 @@
 .h2-principal{
     text-shadow: $shadow;
     color: #fbb38d;
-    display: flex;
+    @include flex-center;
     font-size: 60px;
     text-align: center;
-    justify-content: center;
     align-items: center;
     height: 100%;
 }
 .parrafo-index{
-    display: flex;
+    @include flex-center;
     background-color: $bg-main;
     color: #d05774;
     text-align: center;
     font-size: 25px;
     align-items: center;
-    justify-content: center;
     text-decoration:underline;
     margin-bottom: 0px;
 }
@@ -67,8 +65,7 @@
     align-items: center;
     background-position: center;
     background-size: cover;
-    width: 100%;
-    height: 100%;
+    @include sizes (100%, 100%);
 }
 .buenos-aires{
     background-image: url("../assets/bsas-backround-nordelta.jpg");
@@ -102,12 +99,10 @@ text-align: center;
 }
 .contenedor-quienes-somos{
     display: flex;
-    width: 500px;
-    height: 500px;
+    @include sizes (500px, 500px);
     justify-items: center;
     img{
-        width: 55%;
-        height: 55%;
+        @include sizes (55%, 55%);
     }
 }
 .h3-opiniones{
@@ -120,18 +115,16 @@ text-align: center;
     background-color: $bg-secondary;
 }
 .parrafo-index-faqs{
-    display: flex;
+    @include flex-center;
     color: #d05774;
     text-align: center;
     font-size: 25px;
     align-items: center;
-    justify-content: center;
     text-decoration:underline;
     margin-bottom: 3%;
 }
 .barra-busqueda{
-    display: flex;
-    justify-content: center;
+    @include flex-center;
     width: 100%;
     form{
         width: 75%;
@@ -185,8 +178,7 @@ text-align: center;
     }
     &-iframe{
         grid-area: mapa;
-        display: flex;
-        justify-content: center;
+        @include flex-center;
     }
     &-chatea{
         grid-area: chatea;
@@ -223,28 +215,11 @@ text-align: center;
         flex-direction: column;
         align-items: center;
     }
-    &-logo-twitter{
-        width: 50px;
-        height: 50px;
-    }
-    &-logo-facebook{
-        width: 50px;
-        height: 50px;
-    }
-    &-logo-yt{
-        width: 70px;
-        height: 50px;  
-    }
-    &-logo-tiktok{
-        width: 50px;
-        height: 50px; 
-    }
 }
 .h3{
     &-contacto{
         grid-area: titulo;
-        display: flex;
-        justify-content: center;
+        @include flex-center;
         color: #19647e;
         text-decoration: underline;
         text-align: left;
@@ -252,8 +227,7 @@ text-align: center;
     }
     &-contacto2{
         grid-area: titulo2;
-        display: flex;
-        justify-content: center;
+        @include flex-center;
         color: #19647e;
         text-decoration: underline;
     }
@@ -266,10 +240,8 @@ text-align: center;
     }
 }
 svg{
-    width: 60px;
-    height: 60px;
+    @include sizes (60px, 60px);
 }
 .barra-navegacion{
-    display: flex;
-    justify-content: center;
+    @include flex-center;
 }

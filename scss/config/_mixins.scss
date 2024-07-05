@@ -1,0 +1,10 @@
+//Declaro mixin
+@mixin sizes ($width, $height){
+    width: $width;
+    height: $height;
+};
+
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+}

@@ -56,21 +56,21 @@ header nav ul {
   text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000;
   color: #fbb38d;
   display: flex;
+  justify-content: center;
   font-size: 60px;
   text-align: center;
-  justify-content: center;
   align-items: center;
   height: 100%;
 }
 
 .parrafo-index {
   display: flex;
+  justify-content: center;
   background-color: #cdd8c7;
   color: #d05774;
   text-align: center;
   font-size: 25px;
   align-items: center;
-  justify-content: center;
   text-decoration: underline;
   margin-bottom: 0px;
 }
@@ -179,11 +179,11 @@ header nav ul {
 
 .parrafo-index-faqs {
   display: flex;
+  justify-content: center;
   color: #d05774;
   text-align: center;
   font-size: 25px;
   align-items: center;
-  justify-content: center;
   text-decoration: underline;
   margin-bottom: 3%;
 }
@@ -275,22 +275,6 @@ header nav ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.contacto-logo-twitter {
-  width: 50px;
-  height: 50px;
-}
-.contacto-logo-facebook {
-  width: 50px;
-  height: 50px;
-}
-.contacto-logo-yt {
-  width: 70px;
-  height: 50px;
-}
-.contacto-logo-tiktok {
-  width: 50px;
-  height: 50px;
 }
 
 .h3-contacto {
