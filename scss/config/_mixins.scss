@@ -3,8 +3,10 @@
     width: $width;
     height: $height;
 };
-
 @mixin flex-center{
     display: flex;
     justify-content: center;
+};
+@mixin margin-t{
+    margin-top: 55px;
 }

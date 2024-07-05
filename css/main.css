@@ -1,9 +1,40 @@
+.mfz-XL {
+  font-size: 60px;
+}
+
+.mfz-L {
+  font-size: 35px;
+}
+
+.mfz-M {
+  font-size: 25px;
+}
+
+.mfz-S {
+  font-size: 20px;
+}
+
+.margin-T1 {
+  margin-top: 55px;
+}
+
+.margin-T2 {
+  margin-top: 45px;
+}
+
+.margin-T3 {
+  margin-top: 35px;
+}
+
+.margin-T4 {
+  margin-top: 25px;
+}
+
 * {
   font-family: "Aleo", serif;
   margin: 0;
   padding: 0;
 }
-
 .header-bootstrap {
   display: flex;
   justify-content: center;
@@ -57,7 +88,6 @@ header nav ul {
   color: #fbb38d;
   display: flex;
   justify-content: center;
-  font-size: 60px;
   text-align: center;
   align-items: center;
   height: 100%;
@@ -69,7 +99,6 @@ header nav ul {
   background-color: #cdd8c7;
   color: #d05774;
   text-align: center;
-  font-size: 25px;
   align-items: center;
   text-decoration: underline;
   margin-bottom: 0px;
@@ -174,8 +203,8 @@ header nav ul {
 }
 
 .h5-faqs {
-  font-size: 20px;
   background-color: #f5f5dc;
+  margin-top: 55px;
 }
 
 .parrafo-index-faqs {
