@@ -244,3 +244,37 @@ svg{
 .barra-navegacion{
     @include flex-center;
 }
+//Animaciones
+.animate__fadeIn{
+    animation-duration: 5s;
+}
+.aparicion{
+    &-1{animation: aparicion1 3s;}
+    &-2{animation: aparicion2 5s;}
+    &-3{animation: aparicion3 7s;}
+}
+@keyframes aparicion1{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes aparicion2{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes aparicion3{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
