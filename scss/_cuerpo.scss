@@ -5,7 +5,12 @@
     height: 300px;
     border-bottom: 2px solid #808080;
 }
-
+iframe{
+    @include sizes (600px, 450px);
+}
+svg{
+    @include sizes (16px, 16px);
+}
 .h2-principal{
     text-shadow: $shadow;
     color: #fbb38d;

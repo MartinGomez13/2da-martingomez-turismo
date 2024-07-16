@@ -84,6 +84,16 @@ header nav ul {
   border-bottom: 2px solid #808080;
 }
 
+iframe {
+  width: 600px;
+  height: 450px;
+}
+
+svg {
+  width: 16px;
+  height: 16px;
+}
+
 .h2-principal {
   text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000;
   color: #fbb38d;
