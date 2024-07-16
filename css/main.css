@@ -76,6 +76,15 @@ header nav ul {
   align-items: left;
 }
 
+.navbar-toggler {
+  margin: auto;
+  display: inline-block;
+}
+
+.navbar-collapse {
+  justify-content: center;
+}
+
 .bg-titulo {
   background-image: url("../assets/bg-titulo-index.webp");
   background-position: center;

@@ -35,3 +35,10 @@ header nav ul {
     flex-direction: row;
     align-items: left;
 }
+.navbar-toggler {
+    margin: auto;
+    display: inline-block;
+}
+.navbar-collapse {
+    justify-content: center;
+}
