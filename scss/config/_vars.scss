@@ -2,13 +2,14 @@
 $shadow: 1px 1px 0 #000, -1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000;
 //Colores
 $bg-main: #cdd8c7;
-$bg-secondary: #f5f5dc;
+$bg-secondary: #c9d6c5;
 //Mapas
 $medida-fuentes: (
     XL: 60px,
     L: 35px,
     M: 25px,
     S: 20px,
+    XS: 15px,
 );
 //talle medida
 @each $talle, $medida in $medida-fuentes{

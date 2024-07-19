@@ -14,6 +14,10 @@
   font-size: 20px;
 }
 
+.mfz-XS {
+  font-size: 15px;
+}
+
 .margin-T1 {
   margin-top: 55px;
 }
@@ -111,6 +115,7 @@ svg {
   text-align: center;
   align-items: center;
   height: 100%;
+  padding: 30px;
 }
 
 .parrafo-index {
@@ -125,7 +130,7 @@ svg {
 }
 
 .parrafo-index2 {
-  color: #723646;
+  color: #662132;
   background-color: #cdd8c7;
   text-align: center;
   border-bottom: 2px solid #808080;
@@ -223,7 +228,7 @@ svg {
 }
 
 .h5-faqs {
-  background-color: #f5f5dc;
+  background-color: #c9d6c5;
   margin-top: 55px;
 }
 
@@ -252,6 +257,10 @@ svg {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.bg-default {
+  background-color: #c9d6c5;
 }
 
 .carousel-inner {
@@ -311,11 +320,11 @@ svg {
 }
 .contacto-text textarea {
   margin-bottom: 2px;
-  background-color: #f5f5dc;
+  background-color: #c9d6c5;
   width: 95%;
 }
 .contacto-bg {
-  background-color: #f5f5dc;
+  background-color: #c9d6c5;
 }
 .contacto-iframe iframe {
   width: 100%;
