@@ -82,15 +82,18 @@ svg{
 }
 .boton-viajes{
     background-color: #565656;
-    color: #fbb38d;
+    color: #f98036;
     border-radius: 10px;
     padding: 1em;
     width: 11%;
+    transition: 0.5s;
     &:active{
         background-color: #808080;
     }
     &:hover{
         background-color: #19647e;
+        transform: scale(1.05);
+        transition: 0.5;
     }
 }
 //Quienes somos
@@ -116,7 +119,7 @@ text-align: center;
 }
 //FAQS
 .h5-faqs{
-    background-color: $bg-secondary;
+    background-color: #f5f5dc;
     @include margin-t;
 }
 .parrafo-index-faqs{
@@ -171,6 +174,11 @@ text-align: center;
         a{
             list-style-type: none;
             text-decoration: none;
+            &:hover{
+                transform: scale(1.1);
+                transition: 0.3s;
+            }
+            transition: 0.3s;
         }
     }
     &-grilla{
@@ -243,7 +251,7 @@ text-align: center;
 .btn{
     border: 1px solid black;
     &:hover{
-        background-color: #ffe4c4;
+        background-color: $bg-secondary;
         border: 1px solid #000;
     }
 }
